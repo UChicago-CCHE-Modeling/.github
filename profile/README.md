@@ -1,10 +1,9 @@
-# Chicago Center for HIV Elimination (CCHE) at the University of Chicago Agent-based Modeling Projects Overview
+# Agent-based modeling project homepage and overview: Chicago Center for HIV Elimination (CCHE) at the University of Chicago
 
 ## Integrated Framework for Modeling Social Determinants of HIV Transmission (INFORM-HIV)
 INFORM-HIV is a stochastic, discrete-time, agent-based network model designed to simulate HIV transmission among Black sexual minority men (SMM) and transgender women (TGW) in Chicago and to evaluate interventions to reduce HIV transmission. The model aims to better understand the potential impact of interventions to address social determinants of health (SDOH), including housing, incarceration, and employment, on HIV transmission. INFORM-HIV can be used to examine the impact of socio-structural interventions, alone and in combination with one another and with biomedical interventions, under different scenarios and assumptions about the underlying causal structures in the model.
 
 INFORM-HIV is written in Python using the [Repast for Python (Repast4Py)](https://repast.github.io/repast4py.site/index.html) HPC toolkit, with dynamic network modeling using the [statnet](https://statnet.org/) toolkit. The R package [rpy2](https://rpy2.github.io/) is used to integrate the two frameworks. Automated parameter sweeping procedures are created using the [Swift/T](http://swift-lang.org/Swift-T/) parallel scripting language and are implemented to enable efficient model exploration and calibration.
-
 
 This work is supported by funding from NIH grants R01DA057350 and R21MH128116.
 
